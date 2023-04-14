@@ -3,53 +3,50 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login y Register - DennisCamacho</title>
+    <title>login</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="IMG/user.ico">
-    
 </head>
 
 <body>
-
     <main>
-
-        <div class="contenedor__todo">
-            <div class="caja__trasera">
-                <div class="caja__trasera-login">
-                    <h3>¿Ya tienes una cuenta?</h3>
-                    <p>Inicia sesión para entrar en la página</p>
-                    <button id="btn__iniciar-sesion">Iniciar Sesión</button>
-                </div>
-                <div class="caja__trasera-register">
-                    <h3>¿Aún no tienes una cuenta?</h3>
-                    <p>Regístrate para que puedas iniciar sesión</p>
-                    <button id="btn__registrarse">Regístrarse</button>
-                </div>
-            </div>
-
-            <!--Formulario de Login y registro-->
-            <div class="contenedor__login-register">
-                <!--Login-->
-                <form action="" class="formulario__login">
-                    <h2>Iniciar Sesión</h2>
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="password" placeholder="Contraseña">
-                    <button>Entrar</button>
-                </form>
-
-                <!--Register-->
-                <form action="" class="formulario__register">
-                    <h2>Regístrarse</h2>
-                    <input type="text" placeholder="Nombre completo">
-                    <input type="text" placeholder="Correo Electronico">
+        <div class="container__all">
+            <section class="container__img">
+                <!-- mensaje y redes sociales -->
+                <h1>HELLO WORLD.</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta delectus aspernatur voluptatum in
+                    laborum natus hic itaque ut non, atque, dolorum assumenda, temporibus laboriosam tempora quae nam
+                    excepturi esse nesciunt?</p>
+                    <p>Login con redes sociales :</p>
+                    <div class="redes">
+                        <div class="facebook">
+                            <a href="#">Facebook<i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                        <div class="twitter">
+                            <a href="#">Twitter<i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                         
+                    </div>
+                    
+            </section>
+            <!-- login  -->
+            <section class="container__login">
+                <h2>Login</h2>
+                <form action="login">
                     <input type="text" placeholder="Usuario">
-                    <input type="password" placeholder="Contraseña">
-                    <button>Regístrarse</button>
+                    <input type="text" placeholder="Password">
+                    <button type="#">Enviar</button>
                 </form>
-            </div>
+                
+                <ul>
+                    <li>¿No tienes cuenta? </li>
+                    <li><a href="register">Registrate</a></li>
+                </ul>
+                <ul class="nombre">DennisCE</ul>
+    
+            </section>
         </div>
-
     </main>
 </body>
 
